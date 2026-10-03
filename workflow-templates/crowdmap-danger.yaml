@@ -1,0 +1,11 @@
+name: Validate map pull request
+
+on: pull_request_target
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    uses: IRE-Mudlet-Mapping/CrowdmapPlatform/.github/workflows/danger.yml@v1

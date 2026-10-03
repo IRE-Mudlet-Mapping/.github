@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap JSON diff",
+  "description": "Generate and comment a normalized JSON map diff.",
+  "iconName": "diff",
+  "categories": ["Automation"]
+}

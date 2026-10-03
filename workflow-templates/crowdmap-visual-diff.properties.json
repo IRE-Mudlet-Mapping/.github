@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap visual diff",
+  "description": "Render and comment the visual map changes for a pull request.",
+  "iconName": "image",
+  "categories": ["Automation"]
+}

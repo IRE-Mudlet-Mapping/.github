@@ -1,0 +1,10 @@
+name: Validate dependency update
+
+on: pull_request
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    uses: IRE-Mudlet-Mapping/CrowdmapPlatform/.github/workflows/validate-dependency-update.yml@v1

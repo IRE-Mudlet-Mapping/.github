@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap map validation",
+  "description": "Run the platform and game-owned Danger rules for map pull requests.",
+  "iconName": "map",
+  "categories": ["Automation"]
+}

@@ -1,0 +1,14 @@
+name: Auto-merge Dependabot updates
+
+on:
+  workflow_run:
+    workflows: [Validate dependency update]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    uses: IRE-Mudlet-Mapping/CrowdmapPlatform/.github/workflows/auto-merge-dependabot.yml@v1

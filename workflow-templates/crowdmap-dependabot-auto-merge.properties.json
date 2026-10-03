@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap Dependabot auto-merge",
+  "description": "Enable squash auto-merge after dependency validation succeeds.",
+  "iconName": "dependabot",
+  "categories": ["Automation"]
+}

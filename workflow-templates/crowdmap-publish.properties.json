@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap publication",
+  "description": "Export and publish the map, explorer, and game plugin outputs.",
+  "iconName": "upload",
+  "categories": ["Deployment"]
+}

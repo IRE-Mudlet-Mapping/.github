@@ -1,0 +1,6 @@
+{
+  "name": "Crowdmap dependency validation",
+  "description": "Test platform and game-owned tooling on dependency pull requests.",
+  "iconName": "dependabot",
+  "categories": ["Automation"]
+}

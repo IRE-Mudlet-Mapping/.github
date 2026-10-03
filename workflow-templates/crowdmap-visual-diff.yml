@@ -1,0 +1,12 @@
+name: Visual map diff
+
+on: pull_request_target
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  diff:
+    uses: IRE-Mudlet-Mapping/CrowdmapPlatform/.github/workflows/show-map-diffs.yml@v1
+    secrets: inherit
